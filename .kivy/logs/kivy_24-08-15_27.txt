@@ -1,0 +1,46 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/Documents/Pydroid3/.kivy/logs/kivy_24-08-15_27.txt
+[INFO   ] Kivy: v2.2.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.11.4 (main, Sep 30 2023, 10:54:38) [GCC 11.4.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/bin/python3"
+[INFO   ] Logger: Purge log fired. Processing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 190 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 v1.r34p0-01eac0.647697edc2c1e52dec0a7e587b626ab2'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-G57'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <16383>
+[INFO   ] GL: Texture max units <128>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "kivy/_event.pyx", line 235, in kivy._event.EventDispatcher.__init__
+[WARNING] stderr: TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[WARNING] stderr: 
+[WARNING] stderr: The above exception was the direct cause of the following exception:
+[WARNING] stderr: 
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/Documents/Pydroid3/Stop Watch.py", line 55, in <module>
+[WARNING] stderr:     StopwatchApp().run()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/app.py", line 955, in run
+[WARNING] stderr:     self._run_prepare()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/app.py", line 925, in _run_prepare
+[WARNING] stderr:     root = self.build()
+[WARNING] stderr:            ^^^^^^^^^^^^
+[WARNING] stderr:   File "/storage/emulated/0/Documents/Pydroid3/Stop Watch.py", line 22, in build
+[WARNING] stderr:     start_btn = Button(text="Start", on_press=self.start)
+[WARNING] stderr:                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/uix/behaviors/button.py", line 121, in __init__
+[WARNING] stderr:     super(ButtonBehavior, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/uix/label.py", line 318, in __init__
+[WARNING] stderr:     super(Label, self).__init__(**kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/uix/widget.py", line 357, in __init__
+[WARNING] stderr:     super(Widget, self).__init__(**kwargs)
+[WARNING] stderr:   File "kivy/_event.pyx", line 238, in kivy._event.EventDispatcher.__init__
+[WARNING] stderr: TypeError: Properties ['bg'] passed to __init__ may not be existing property names. Valid properties are ['always_release', 'anchors', 'background_color', 'background_disabled_down', 'background_disabled_normal', 'background_down', 'background_normal', 'base_direction', 'bold', 'border', 'center', 'center_x', 'center_y', 'children', 'cls', 'color', 'disabled', 'disabled_color', 'disabled_outline_color', 'ellipsis_options', 'font_blended', 'font_context', 'font_direction', 'font_family', 'font_features', 'font_hinting', 'font_kerning', 'font_name', 'font_script_name', 'font_size', 'halign', 'height', 'ids', 'is_shortened', 'italic', 'last_touch', 'line_height', 'markup', 'max_lines', 'min_state_time', 'mipmap', 'motion_filter', 'opacity', 'outline_color', 'outline_width', 'padding', 'padding_x', 'padding_y', 'parent', 'pos', 'pos_hint', 'refs', 'right', 'shorten', 'shorten_from', 'size', 'size_hint', 'size_hint_max', 'size_hint_max_x', 'size_hint_max_y', 'size_hint_min', 'size_hint_min_x', 'size_hint_min_y', 'size_hint_x', 'size_hint_y', 'split_str', 'state', 'strikethrough', 'strip', 'text', 'text_language', 'text_size', 'texture', 'texture_size', 'top', 'underline', 'unicode_errors', 'valign', 'width', 'x', 'y']

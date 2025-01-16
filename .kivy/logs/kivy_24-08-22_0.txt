@@ -1,0 +1,50 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/Documents/Pydroid3/.kivy/logs/kivy_24-08-22_0.txt
+[INFO   ] Kivy: v2.2.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.11.4 (main, Sep 30 2023, 10:54:38) [GCC 11.4.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/bin/python3"
+[INFO   ] Logger: Purge log fired. Processing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 190 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 v1.r34p0-01eac0.647697edc2c1e52dec0a7e587b626ab2'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-G57'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <16383>
+[INFO   ] GL: Texture max units <128>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[INFO   ] GL: NPOT texture support is available
+[INFO   ] Base: Leaving application in progress...
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/Documents/Pydroid3/TKpro.py", line 92, in <module>
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+[WARNING] stderr:     runTouchApp()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+[WARNING] stderr:     EventLoop.mainloop()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+[WARNING] stderr:     self.idle()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/base.py", line 391, in idle
+[WARNING] stderr:     Clock.tick_draw()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/clock.py", line 783, in tick_draw
+[WARNING] stderr:     self._process_events_before_frame()
+[WARNING] stderr:   File "kivy/_clock.pyx", line 662, in kivy._clock.CyClockBase._process_events_before_frame
+[WARNING] stderr:   File "kivy/_clock.pyx", line 708, in kivy._clock.CyClockBase._process_events_before_frame
+[WARNING] stderr:   File "kivy/_clock.pyx", line 704, in kivy._clock.CyClockBase._process_events_before_frame
+[WARNING] stderr:   File "kivy/_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/uix/recycleview/__init__.py", line 350, in refresh_views
+[WARNING] stderr:     viewport = self.get_viewport()
+[WARNING] stderr:                ^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/uix/recycleview/__init__.py", line 551, in get_viewport
+[WARNING] stderr:     left, bottom = self._convert_sv_to_lm(left, bottom)
+[WARNING] stderr:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.11/site-packages/kivy/uix/recycleview/__init__.py", line 521, in _convert_sv_to_lm
+[WARNING] stderr:     raise Exception(
+[WARNING] stderr: Exception: The layout manager must be a sub child of the recycleview. Could not find <kivy.uix.recycleview.RecycleView object at 0x72941bb9a0> in the parent tree of <kivy.uix.recycleboxlayout.RecycleBoxLayout object at 0x72941fef90>
