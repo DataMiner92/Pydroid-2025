@@ -57,4 +57,4 @@ weather_label.pack(pady=20)
 # Run the application
 root.mainloop()
 
-#0f1dc808ffed15e683d121fdb79f636a
+
